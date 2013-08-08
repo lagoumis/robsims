@@ -83,7 +83,13 @@ projects[rules][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
+projects[token][version] = "1.5"
+projects[token][subdir] = "contrib"
+
 projects[views][version] = "3.7"
+projects[views][subdir] = "contrib"
+
+projects[webform][version] = "3.19"
 projects[views][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
