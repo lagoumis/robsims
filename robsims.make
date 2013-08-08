@@ -90,7 +90,7 @@ projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
 projects[webform][version] = "3.19"
-projects[views][subdir] = "contrib"
+projects[webform][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
 projects[webform_rules][subdir] = "contrib"
