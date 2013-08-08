@@ -1,0 +1,4 @@
+name = Rob Sims
+description = Installation profile for Rob Sims
+version = 1.0
+core = 7.x
