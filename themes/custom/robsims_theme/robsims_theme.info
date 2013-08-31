@@ -370,9 +370,20 @@ settings[alpha_region_footer_second_columns] = '12'
 settings[alpha_region_footer_second_suffix] = ''
 settings[alpha_region_footer_second_weight] = '2'
 settings[alpha_region_footer_second_css] = ''
-; Information added by drupal.org packaging script on 2012-02-19
-version = "7.x-3.1"
-core = "7.x"
-project = "omega"
-datestamp = "1329681647"
+
+
+;GOOGLE FONTS
+fonts[google_fonts_api][] = "Open Sans&subset=latin#300"
+fonts[google_fonts_api][] = "Open Sans&subset=latin#300italic"
+fonts[google_fonts_api][] = "Open Sans&subset=latin#600"
+fonts[google_fonts_api][] = "Open Sans&subset=latin-ext#600italic"
+fonts[google_fonts_api][] = "Open Sans&subset=latin#700"
+fonts[google_fonts_api][] = "Open Sans&subset=latin#700italic"
+fonts[google_fonts_api][] = "Open Sans&subset=latin#800"
+fonts[google_fonts_api][] = "Open Sans&subset=latin-ext#800italic"
+
+fonts[google_fonts_api][] = "Gentium Basic&subset=latin#700"
+fonts[google_fonts_api][] = "Gentium Basic&subset=latin#700italic"
+fonts[google_fonts_api][] = "Gentium Basic&subset=latin#italic"
+fonts[google_fonts_api][] = "Gentium Basic&subset=latin#regular"
 
