@@ -1,5 +1,5 @@
-name = Rob's theme
-description = The theme for Rob's site
+name = Robs theme
+description = The theme for Robs site
 core = 7.x
 engine = phptemplate
 screenshot = screenshot.png
