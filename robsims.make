@@ -32,10 +32,10 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
-projects[ds][version] = "2.4"
+projects[ds][version] = "2.5"
 projects[ds][subdir] = "contrib"
 
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.2"
 projects[entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.0"
@@ -71,7 +71,7 @@ projects[menu_block][subdir] = "contrib"
 projects[media][version] = "1.3"
 projects[media][subdir] = "contrib"
 
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
