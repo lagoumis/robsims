@@ -50,6 +50,12 @@ function global_context_default_contexts() {
           'region' => 'header_first',
           'weight' => '-9',
         ),
+        'boxes-copyright_box' => array(
+          'module' => 'boxes',
+          'delta' => 'copyright_box',
+          'region' => 'footer_first',
+          'weight' => '-10',
+        ),
       ),
     ),
   );

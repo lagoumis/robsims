@@ -14,8 +14,9 @@
   background-repeat: repeat-x;
 }
 
-#region-content {
+#zone-content {
   background: #fff;
+  padding-top: 20px;
 }
 
 /** STYLES **/
@@ -44,8 +45,8 @@ h1 {
 h2,
 h2 a:link,
 h2 a:visited {
-  font-size: 50px;
-  line-height: 51px;
+  font-size: 40px;
+  line-height: 42px;
   margin-bottom: 0px;
   text-decoration: none;
 }
@@ -57,8 +58,8 @@ h2 a:hover {
 h3,
 h3 a:link,
 h3 a:visited {
-  font-size: 40px;
-  line-height: 42px;
+  font-size: 35px;
+  line-height: 37px;
   margin-bottom: 0px;
   text-decoration: none;
 }
@@ -71,7 +72,7 @@ h4,
 h4 a:link,
 h4 a:visited {
   font-size: 30px;
-  line-height: 31px;
+  line-height: 32px;
   margin-bottom: 0px;
   text-decoration: none;
 }
@@ -96,8 +97,8 @@ h5 a:hover {
 h6,
 h6 a:link,
 h6 a:visited {
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 20px;
   margin-bottom: 0px;
   text-decoration: none;
 }
@@ -111,7 +112,7 @@ li {
   color: #747474;
   font-family: gentium;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 25px;
 }
 
@@ -176,7 +177,7 @@ hr {
   color: #a0a0a0;
   font-family: gentium;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 25px;
   margin-top: -5px;
 }
@@ -219,7 +220,8 @@ hr {
   text-transform: uppercase;
 }
 
-#block-menu-block-1 li a:hover {
+#block-menu-block-1 li a:hover,
+#block-menu-block-1 li.active a {
   text-decoration: underline;
 }
 
@@ -240,6 +242,10 @@ hr {
   background: #202020;
   position: absolute; top: 0; right: 0;
   padding: 4px 10px;
+}
+
+#block-menu-block-2:hover {
+  background: #474747;
 }
 
 #block-menu-block-2 .block-title {
@@ -282,6 +288,14 @@ hr {
 }
 
 /** HEADER **/
+#region-header-first {
+  margin-left: 0;
+}
+
+#block-boxes-header-box .boxes-box-controls {
+  display: none;
+}
+
 .header-message {
   background: #202020;
   height: 173px;
@@ -300,14 +314,14 @@ hr {
   position: absolute; top: 30px; right: 30px;
 }
 
-.signature {
+#block-boxes-header-gday-box .signature {
   color: #fff;
   font-family: "rock salt";
   float: right;
   font-size: 16px;
 }
 
-.text {
+#block-boxes-header-gday-box .text {
   font: 16px "gill sans", "open sans", sans-serif;
   font-weight: 200;
   font-style: italic;
@@ -315,6 +329,193 @@ hr {
 }
 
 /* BASIC PAGE */
-.node-type-basic-page .node {
+.node-type-basic-page #region-content .region-inner {
+  padding: 0 10px 30px 10px;
+}
+
+/**Headshot box**/
+#block-boxes-about-headshot img {
+  margin-bottom: 20px;
+}
+
+#block-boxes-about-headshot .quote {
+  color: #A0A0A0;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "gill sans", "open sans", sans-serif;
+  font-weight: 200;
+  line-height: 26px;
+  margin: 0 10px 10px 10px;
+}
+
+#block-boxes-about-headshot p em {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+/** SMALL HEADER AND TEXT AREA **/
+.small-header {
+  background: #202020;
+}
+
+.small-header p,
+.small-header p a {
+  color: #fff;
+  font-family: "gill sans", "open sans", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 8px 0 8px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.small-header p a:hover {
+  text-decoration: underline;
+}
+
+.text-area h6 {
+  margin-bottom: 10px;
+}
+
+.text-area {
+  border: solid 1px #cfcfcf;
+  border-top: none;
   padding: 20px;
+}
+
+.text-area p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/**FOOTER**/
+#zone-footer-wrapper {
+  background: #202020;
+}
+
+#block-boxes-copyright-box .boxes-box-content {
+  color: #515151;
+  font-family: gentium;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#block-boxes-copyright-box .symbol {
+  display: block;
+  float: left;
+  font-size: 20px;
+  margin-right: 6px;
+  
+}
+
+#block-boxes-copyright-box .text {
+  font-size: 13px;
+  float: left;
+  margin-top: 4px;
+}
+
+#block-boxes-copyright-box {
+  float: right;
+  padding-bottom: 20px;
+}
+
+/** FRIENDS OF ROB **/
+#block-boxes-contact-friends .text-area p {
+  font-size: 14px;
+}
+
+#block-boxes-contact-friends .text-area h6 {
+  margin-bottom: 0px;
+}
+
+#block-boxes-contact-friends .text-area p a {
+  color: #747474;
+  text-decoration: none;
+}
+
+#block-boxes-contact-friends .text-area p a:hover {
+  text-decoration: underline;
+}
+
+/** CONTACT DETAILS **/
+#block-boxes-contact-details-box .subhead {
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: -2px;
+  margin-bottom: 20px;
+}
+
+#block-boxes-contact-details-box p {
+  margin: 0;
+}
+
+#block-boxes-contact-details-box img {
+  float: left;
+  margin-right: 15px;
+}
+
+#block-boxes-contact-details-box .text {
+  font-size: 15px;
+  float: left;
+  margin-top: 8px;
+  line-height: 16px;
+  width: 100px;
+}
+
+#block-boxes-contact-details-box .email {
+  color: #333;
+  clear: left;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 33px;
+  padding-top: 7px;
+  text-decoration: underline;
+}
+
+#block-boxes-contact-details-box .small {
+  font-size: 12px;
+  clear: left;
+  padding-top: 10px;
+  line-height: 13px;
+}
+
+/** CONTACT FORM **/
+#block-webform-client-block-3 .block-title {
+  display: none;
+}
+
+.webform-component input,
+.webform-component textarea {
+  background: #ebebeb;
+  border: solid 1px #d2d2d2;
+  width: 100%;
+}
+
+.webform-component .grippie {
+  display: none;
+}
+
+.webform-component input {
+  height: 40px;
+}
+
+.form-actions .form-submit {
+  color: #fff;
+  background: #333;
+  border: none;
+  font: 19px "gentium";
+  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+  letter-spacing: 1px;
+  padding: 9px 12px;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+.form-actions .form-submit:hover {
+  background: #474747;
+  color: #fff;
+  border: none;
 }
