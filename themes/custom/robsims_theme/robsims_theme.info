@@ -387,3 +387,5 @@ fonts[google_fonts_api][] = "Gentium Basic&subset=latin#700italic"
 fonts[google_fonts_api][] = "Gentium Basic&subset=latin#italic"
 fonts[google_fonts_api][] = "Gentium Basic&subset=latin#regular"
 
+fonts[google_fonts_api][] = "Rock Salt&subset=latin#regular"
+
