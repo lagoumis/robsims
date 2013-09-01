@@ -44,6 +44,12 @@ function global_context_default_contexts() {
           'region' => 'header_first',
           'weight' => '-10',
         ),
+        'boxes-header_gday_box' => array(
+          'module' => 'boxes',
+          'delta' => 'header_gday_box',
+          'region' => 'header_first',
+          'weight' => '-9',
+        ),
       ),
     ),
   );
