@@ -470,6 +470,7 @@ hr {
   clear: left;
   font-weight: bold;
   font-size: 16px;
+  letter-spacing: 1px;
   margin-bottom: 33px;
   padding-top: 7px;
   text-decoration: underline;
@@ -491,7 +492,16 @@ hr {
 .webform-component textarea {
   background: #ebebeb;
   border: solid 1px #d2d2d2;
+  color: #3f3f3f;
+  font-family: gentium;
+  font-style: italic;
+  font-size: 15px;
   width: 100%;
+}
+
+.webform-component textarea {
+  padding-left: 15px;
+  padding-top: 10px;
 }
 
 .webform-component .grippie {
@@ -500,6 +510,7 @@ hr {
 
 .webform-component input {
   height: 40px;
+  padding-left: 15px;
 }
 
 .form-actions .form-submit {
