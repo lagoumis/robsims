@@ -1,0 +1,11 @@
+name = Home
+core = 7.x
+package = Features
+php = 5.2.4
+version = 7.x-0.23
+project = home
+dependencies[] = boxes
+dependencies[] = ctools
+features[box][] = home_bio_box
+features[ctools][] = boxes:box:1
+features[features_api][] = api:2

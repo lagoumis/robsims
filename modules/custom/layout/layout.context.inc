@@ -84,5 +84,39 @@ function layout_context_default_contexts() {
   $context->condition_mode = 0;
   $export['context_contact'] = $context;
 
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'context_home';
+  $context->description = '';
+  $context->tag = '';
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        'node/5' => 'node/5',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'boxes-home_bio_box' => array(
+          'module' => 'boxes',
+          'delta' => 'home_bio_box',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+        'webform-client-block-4' => array(
+          'module' => 'webform',
+          'delta' => 'client-block-4',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+  $export['context_home'] = $context;
+
   return $export;
 }
