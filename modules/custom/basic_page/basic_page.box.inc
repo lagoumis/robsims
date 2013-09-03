@@ -19,8 +19,8 @@ function basic_page_default_box() {
   $box->description = 'About anecdote ';
   $box->options = array(
     'body' => array(
-      'value' => '<div class="small-header"><p>Amusing anecdote</p></div>
-<div class="text-area"><h6>Rob attempts to introduce kids to Mahler</h6><p>Given his love of music and strong desire to educate young minds, Rob puts together a nice mixed tape and sends it off to the school where his wife works, so they can play it over the loud speakers.  The school gratefully accepts the tape and plays it over the loudspeaker to signal the end of lunch.  Later that day Rob\'s wife comes home and gives him the mixed tape back.  Turns out, Rob had put a small sample from Mahlers "piece name here" on the tape and upon hearing it a number of the schools young students were found crying by the teachers.  It seems Mahler is scary for young children.  Robs well intentioned attempt to educate was unfortunately short lived as the next day the school went back to playing "???".</p></div>',
+      'value' => '<div class="small-header"><p>Fun facts</p></div>
+<div class="text-area"><h6>Rob general knowledge</h6><p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p></div>',
       'format' => 'php_code',
     ),
     'additional_classes' => '',
@@ -54,7 +54,7 @@ function basic_page_default_box() {
     'body' => array(
       'value' => '<div class="small-header"><p>Contact details</p></div>
 <div class="text-area">
-<h5>Robert Sims</h5><p class="subhead">Based in Melbourne</p><img src="/profiles/robsims/themes/custom/robsims_theme/images/email-icon.png" width="44px" height="38px"/><p class="text">Preferred form of contact</p><p class="email">rob@gmail.com</p><img src="/profiles/robsims/themes/custom/robsims_theme/images/phone-icon.png" width="47px" height="38px"/><p class="text">Currently not available</p><p class="small">If you prefer to talk over the phone you can email me your number and I will call you</p></div>',
+<h5>Robert Sims</h5><p class="subhead">Based in Melbourne</p><img src="/profiles/robsims/themes/custom/robsims_theme/images/email-icon.png" width="44px" height="38px"/><p class="text">Preferred form of contact</p><p class="email"><a href="mailto:rob@gmail.com">rob@gmail.com</a></p><img src="/profiles/robsims/themes/custom/robsims_theme/images/phone-icon.png" width="47px" height="38px"/><p class="text">Currently not available</p><p class="small">**If you prefer to talk over the phone you can email me your number and I will call you</p></div>',
       'format' => 'php_code',
     ),
     'additional_classes' => '',
