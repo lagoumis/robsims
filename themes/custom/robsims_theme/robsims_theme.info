@@ -5,6 +5,7 @@ engine = phptemplate
 screenshot = screenshot.png
 base theme = omega
 
+scripts[] = js/custom.js
 
 ; REQUIRED CORE REGIONS
 
