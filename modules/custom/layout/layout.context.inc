@@ -60,6 +60,12 @@ function layout_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'webform-client-block-3' => array(
+          'module' => 'webform',
+          'delta' => 'client-block-3',
+          'region' => 'content',
+          'weight' => '10',
+        ),
         'boxes-contact_details_box' => array(
           'module' => 'boxes',
           'delta' => 'contact_details_box',
