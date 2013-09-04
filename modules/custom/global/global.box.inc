@@ -50,7 +50,7 @@ function global_default_box() {
   $box->description = 'Header Gday box';
   $box->options = array(
     'body' => array(
-      'value' => '<div class="header-message"><h2>G\'Day</h2><p class="text">Welcome to my website, this is a  message that welcomes people to the website and explains a bit about who dad is.  Shouldn\'t be too long or too short, this length is perfect.</p><p class="signature">Rob</p>
+      'value' => '<div class="header-message"><h2>G\'Day</h2><p class="text">Welcome to my website.  My name is Rob Sims and I write music.  This site contains all my finished pieces for you peruse and purchase. Please enjoy and drop me line if you feel like saying hello. </p><p class="signature">Rob</p>
 </div>',
       'format' => 'php_code',
     ),
