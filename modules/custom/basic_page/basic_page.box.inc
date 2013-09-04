@@ -72,7 +72,7 @@ function basic_page_default_box() {
     'body' => array(
       'value' => '<div class="small-header"><p>Friends of Rob</p></div>
 <div class="text-area">
-<h6>Eric Klay</h6><p><a href="http://www.ericklay.com/">http://www.ericklay.com/</a></p><h6>Friend one</h6><p><a href="http://www.ericklay.com/">http://www.ericklay.com/</a></p><h6>Friend two</h6><p><a href="http://www.ericklay.com/">http://www.ericklay.com/</a></p></div>',
+<h6><a href="http://www.ericklay.com/">Eric Klay</a></h6><p>Musician (trumpet player)</p><h6><a href="http://www.move.com.au/artist/anthony-pope">Anthony Pope</a></h6><p>Musician (trumpet player)</p><h6><a href="http://www.mso.com.au/">MSO</a></h6><p>Melbourne symphony orchestra</p></div>',
       'format' => 'php_code',
     ),
     'additional_classes' => '',
