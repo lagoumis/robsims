@@ -298,7 +298,7 @@ hr {
 
 .header-message {
   background: #202020;
-  height: 173px;
+  height: 179px;
   padding: 30px;
   width: 280px;
 }
@@ -311,7 +311,7 @@ hr {
 }
 
 #block-boxes-header-gday-box {
-  position: absolute; top: 30px; right: 15px;
+  position: absolute; top: 26px; right: 11px;
 }
 
 #block-boxes-header-gday-box .signature {
@@ -515,7 +515,7 @@ hr {
 
 #page .form-submit {
   color: #fff;
-  background: #333;
+  background: #202020;
   border: none;
   font: 19px "gentium";
   -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
@@ -526,7 +526,7 @@ hr {
 }
 
 #page .form-submit:hover {
-  background: #474747;
+  background: #3d3d3d;;
   color: #fff;
   border: none;
 }
