@@ -20,7 +20,7 @@ function basic_page_default_box() {
   $box->options = array(
     'body' => array(
       'value' => '<div class="small-header"><p>Fun facts</p></div>
-<div class="text-area"><h6>Rob general knowledge</h6><p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p></div>',
+<div class="text-area"><h6>Rob general knowledge</h6><p>Avid supporter of Western bulldogs (despite knowing better)</p><p>I HATE yoghurt and bagpipes</p><p>Everyone has a price. Mine is a bucket of chips and a cold beer</p><p>I played the trumpet professionally, but secretly I wished that I had picked the violin.  Its way better :P</p></div>',
       'format' => 'php_code',
     ),
     'additional_classes' => '',

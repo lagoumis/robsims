@@ -194,7 +194,7 @@ hr {
 
 /*MAIN MENU */
 #zone-menu-wrapper {
-  background: #202020;
+  background: #181818;
 }
 
 #block-menu-block-1 .block-title {
@@ -234,18 +234,18 @@ hr {
 }
 
 #block-menu-block-1 {
-  padding: 5px 0;
+  padding: 4px 0 6px 0;
 }
 
 /** LOGIN MENU **/
 #block-menu-block-2 {
-  background: #202020;
+  background: #181818;
   position: absolute; top: 0; right: 0;
   padding: 4px 10px;
 }
 
 #block-menu-block-2:hover {
-  background: #474747;
+  background: #343434;
 }
 
 #block-menu-block-2 .block-title {
@@ -297,7 +297,7 @@ hr {
 }
 
 .header-message {
-  background: #202020;
+  background: #181818;
   height: 179px;
   padding: 30px;
   width: 280px;
@@ -355,7 +355,7 @@ hr {
 
 /** SMALL HEADER AND TEXT AREA **/
 .small-header {
-  background: #202020;
+  background: #181818;
 }
 
 .small-header p,
@@ -392,7 +392,7 @@ hr {
 
 /**FOOTER**/
 #zone-footer-wrapper {
-  background: #202020;
+  background: #181818;
 }
 
 #block-boxes-copyright-box .boxes-box-content {
@@ -515,7 +515,7 @@ hr {
 
 #page .form-submit {
   color: #fff;
-  background: #202020;
+  background: #181818;
   border: none;
   font: 19px "gentium";
   -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
@@ -526,7 +526,7 @@ hr {
 }
 
 #page .form-submit:hover {
-  background: #3d3d3d;;
+  background: #292929;
   color: #fff;
   border: none;
 }
@@ -550,7 +550,7 @@ hr {
 }
 
 #block-webform-client-block-4 .block-title {
-  background: #202020;
+  background: #181818;
   color: #fff;
   font-family: "gill sans", "open sans", sans-serif;
   font-size: 13px;
@@ -584,13 +584,18 @@ hr {
   height: 108px;
 }
 
+#block-boxes-home-bio-box h5 {
+  font-size: 27px;
+}
+
 #block-boxes-home-bio-box img {
   float: left;
 }
 
 #block-boxes-home-bio-box .bio-info {
   display: inline-block;
-  margin-top: 29px;
+  margin-top: 27px;
+  margin-left: -10px;
 }
 
 #block-boxes-home-bio-box .bio-info p {
