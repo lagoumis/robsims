@@ -9,6 +9,7 @@ dependencies[] = boxes
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = home
+dependencies[] = temporary
 dependencies[] = webform
 features[context][] = context_about
 features[context][] = context_contact

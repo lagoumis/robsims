@@ -106,6 +106,12 @@ function layout_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
+        'boxes-happy_bday' => array(
+          'module' => 'boxes',
+          'delta' => 'happy_bday',
+          'region' => 'content',
+          'weight' => '-9',
+        ),
         'webform-client-block-4' => array(
           'module' => 'webform',
           'delta' => 'client-block-4',

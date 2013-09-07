@@ -113,7 +113,7 @@ li {
   font-family: gentium;
   font-weight: normal;
   font-size: 15px;
-  line-height: 25px;
+  line-height: 22px;
 }
 
 p strong {
@@ -418,7 +418,8 @@ hr {
 
 #block-boxes-copyright-box {
   float: right;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 14px;
 }
 
 /** FRIENDS OF ROB **/
@@ -606,4 +607,9 @@ hr {
   float: right;
   margin-top: 54px;
   margin-right: 14px;
+}
+
+/** HAPPY BIRTHDAY BOX **/
+#block-boxes-happy-bday {
+  padding-top: 30px;
 }

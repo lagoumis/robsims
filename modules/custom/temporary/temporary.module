@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Temporary feature.
+ */
+
+include_once 'temporary.features.inc';

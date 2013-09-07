@@ -1,0 +1,10 @@
+name = Temporary
+core = 7.x
+package = Features
+version = 7.x-0.22
+project = temporary
+dependencies[] = boxes
+dependencies[] = ctools
+features[box][] = happy_bday
+features[ctools][] = boxes:box:1
+features[features_api][] = api:2
