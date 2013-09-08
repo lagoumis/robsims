@@ -600,13 +600,18 @@ hr {
 }
 
 #block-boxes-home-bio-box .bio-info p {
-  margin-top: -5px;
+  margin-top: -3px;
 }
 
-#block-boxes-home-bio-box input {
+#block-boxes-home-bio-box a {
   float: right;
   margin-top: 54px;
   margin-right: 14px;
+  text-decoration: none;
+}
+
+#block-boxes-home-bio-box a:hover {
+  text-decoration: none;
 }
 
 /** HAPPY BIRTHDAY BOX **/
